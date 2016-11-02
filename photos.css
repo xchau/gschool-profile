@@ -30,7 +30,7 @@ nav li a {
   text-decoration: none;
   color: white;
   display: block;
-  padding: 5px 20px; 
+  padding: 5px 20px;
 }
 
 .current {
@@ -54,7 +54,7 @@ div.pic img {
   float: left;
   margin: 20px 15px 15px 5px;
   padding: 0;
-  max-width: 100%;
+  max-width: 200px;
   max-height: 200px;
   border: 2px solid black;
 }
@@ -75,11 +75,18 @@ div.pic img:hover {
 
 /*--- FOOTER ---*/
 
+#empty {
+  display: block;
+  content: "";
+  width: 50%;
+}
+
 #footer {
   background: #d38469;
   text-align: right;
   width: auto;
   padding: 5px;
+  display: block;
 }
 
 #footer a {
