@@ -1,0 +1,170 @@
+* {
+  font-family: Futura, Helvetica, sans-serif;
+  font-size: 17px;
+  margin: 0;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 92%;
+  max-width: 1000px;
+}
+
+body {
+  background: #565656
+}
+
+a:hover {
+  background: #6187d8;
+}
+
+/*--- NAVBAR styles ---*/
+
+nav {
+  background-color: #3c69c9;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+nav ul a {
+  color: white;
+  display: block;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  
+}
+
+nav li {
+  text-align: center;
+}
+
+.current {
+  background: #338af4;
+}
+
+/*--- CONTENT styles ---*/
+
+.content {
+  background: white;
+  margin: 0;
+  padding: 50px 30px;
+}
+
+.content h4 {
+  padding: 0 80px;
+  font-size: 40px;
+}
+
+.content p {
+  font-family: Baskerville, Helvetica, sans-serif;
+  padding: 0 80px;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+/*--- DIV DESIGN styles ---*/
+
+div.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  background: white;
+}
+
+div.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  background: white;
+}
+
+div.container3 {
+  display: flex;
+  flex-wrap: wrap;
+  background: white;
+}
+
+
+.box {
+  min-height: 200px;
+  margin: 0;
+  padding: 0;
+  display: flex; /* all children made as small as possible when flex-ing here */
+  font-family: Futura, sans-serif;
+  color: white;
+  justify-content: center;
+  align-items: center; 
+  
+}
+
+.box p {
+  font-size: 3em;
+  margin: 0 auto;
+}
+
+.a {
+  background: lightgreen;
+  flex: 1 1 50%;
+}
+
+.b {
+  flex: 1 1 50%;
+}
+
+.b img {
+  width: 100%;
+  height: 100%;
+}
+
+.c {
+  flex: 1 1 50%;
+}
+
+.c img {
+  width: 100%;
+  height: 100%;
+}
+
+.d {
+  background: lightcoral;
+  flex: 1 1 50%;
+}
+
+.e {
+  background: #bf9ffc;
+  flex: 1 1 50%;
+}
+
+.f {
+  flex: 1 1 50%;
+}
+
+.f img {
+  width: 100%;
+  height: 100%;
+}
+
+ /*--- FOOTER ---*/
+
+#footer {
+  background: #d38469;
+  text-align: right;
+  width: auto;
+  padding: 5px;
+}
+
+#footer a {
+  font-size: 12px;
+  text-decoration: none;
+  color: darkslategray;
+}
+
+#footer a:hover {
+  background: #d38469;
+  color: white;
+}

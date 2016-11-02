@@ -1,0 +1,94 @@
+* {
+  font-family: Futura, Helvetica, sans-serif;
+  font-size: 17px;
+  margin: 0;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 94%;
+  max-width: 1000px;
+}
+
+body {
+  background: #565656
+}
+
+/*--- NAVBAR styles ---*/
+
+nav {
+  background: #3c69c9;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 5px 20px; 
+}
+
+.current {
+  background: #338af4;
+}
+
+
+/*--- GALLERY styles ---*/
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 200px;
+  background: white;
+  padding: 35px 0;
+  justify-content: center;
+}
+
+div.pic img {
+  float: left;
+  margin: 20px 15px 15px 5px;
+  padding: 0;
+  max-width: 100%;
+  max-height: 200px;
+  border: 2px solid black;
+}
+
+div.pic img:hover {
+  border: 2px solid lightcoral;
+}
+
+.info {
+  text-align: center;
+  font-size: 16px;
+  font-family: Baskerville;
+  font-style: italic;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+/*--- FOOTER ---*/
+
+#footer {
+  background: #d38469;
+  text-align: right;
+  width: auto;
+  padding: 5px;
+}
+
+#footer a {
+  font-size: 12px;
+  text-decoration: none;
+  color: darkslategray;
+}
+
+#footer a:hover {
+  background: #d38469;
+  color: white;
+}
